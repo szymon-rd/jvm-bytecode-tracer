@@ -28,7 +28,7 @@ import org.objectweb.asm.Opcodes.*
 import Instructions.*
 import java.nio.file.StandardCopyOption
 
-object LowLevelDebugger {
+object BytecodeTracer {
 
     case class InsnData(insn: AbstractInsnNode, method: MethodNode)
 
