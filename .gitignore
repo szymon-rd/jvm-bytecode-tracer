@@ -1,0 +1,7 @@
+.bsp.
+.metals/
+.vscode/
+.scala-build/
+snippets/
+output/
+.bsp
