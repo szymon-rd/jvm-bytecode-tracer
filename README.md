@@ -14,7 +14,7 @@ scala-cli . -M tracer -- <inpath>/input.class <outpath>/output.class
 scala-cli run --class <outpath>
 ```
 The first comamnd will transform the input class from `<inpath>/input.class` and put the transformed version in the `<outpath>/output.class` (the classes can be named differently). The second command will run the class at output.
-When the JVM shutdowns, there will appear the command line interface of the tracer:
+When the JVM shuts down, there will appear the command line interface of the tracer:
 ```
 -- Debugging tracer logs
 Select:
