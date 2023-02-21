@@ -1,6 +1,6 @@
 # JVM Bytecode Tracer
 
-Tool to trace and output bytecode executed by threads in your JVM program. It keeps track of all executed bytecode instructions and for some of them, keeps track of the values operated on (ALOAD and ARETURN). Used to debug [dotty/16806](https://github.com/lampepfl/dotty/issues/16806). **It requires refactor and was written as just a quick tool to debug this issue.** However, somebody may find it useful. It required refactor, I may polish it in the future.
+Tool to trace and output bytecode executed by threads in your JVM program. It keeps track of all executed bytecode instructions and for some of them, keeps track of the values operated on (ALOAD and ARETURN). Used to debug [dotty/16806](https://github.com/lampepfl/dotty/issues/16806). **It requires refactor and was written as just a quick tool to debug this issue.** However, somebody may find it useful.
 
 The main benefit of this tool is that it first aggregates the logs, and then outputs them after the execution. This approach makes it possible to debug race conditions.
 
